@@ -8,6 +8,7 @@ import Education from '@/components/Education';
 import Achievements from '@/components/Achievements';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import CustomCursor from './components/CustomCursor';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             background: 'radial-gradient(ellipse 80% 50% at 50% 0%, var(--orb-1), transparent 60%), radial-gradient(ellipse 60% 40% at 80% 80%, var(--orb-2), transparent 60%)',
           }}
         />
+        <CustomCursor />
         <Navbar />
         <main className="relative z-10">
           <Hero />
